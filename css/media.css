@@ -1,0 +1,117 @@
+/*---------------------- 'Media Queries'-------------- */
+
+/* 992- 1200px */
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 940px;
+  }
+}
+/* 768-992px */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+  .prof {
+    width: 40%;
+  }
+  .elements {
+    width: 55%;
+  }
+  .elements img {
+    width: 100%;
+  }
+  .circle, .shadow, .border {
+    width: 30%;
+  }
+}
+/* 576-768px */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 520px;
+  }
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 5%;
+  }
+  .time {
+    position: absolute;
+    top: 15px;
+    right: 5%;
+  }
+  h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .offer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .prof {
+    width: 30%;
+  }
+  .prof p {
+    font-size: 12px;
+  }
+  .form {
+    margin-top: 10px;
+  }
+  .form input {
+    margin-bottom: 29px;
+  }
+  .elements {
+    width: 65%;
+  }
+  h3 {
+    font-size: 13px;
+  }
+  .elements p {
+    font-size: 12px;
+  }
+  .figures {
+    padding: 80px 0 30px;
+
+  }
+  .math {
+    flex-direction: column;
+  }
+  .border, .circle, .shadow {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .credits {
+    width: 61%;
+  }
+}
+/* 320-576px  */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  .logo {
+    top: 10px;
+    right: 6%;
+    left: auto;
+  }
+  .menu {
+    flex-direction: column;
+  }
+  .menu li {
+    margin: 0 0 10px 0;
+  }
+  .time {
+    right: 5%;
+    top: 25%;
+  }
+  .offer_essence {
+    flex-direction: column;
+  }
+  .elements, .prof {
+    width: 100%;
+  }
+  .elements {
+    padding: 40px 15px 46px;
+  }
+  
+}
